@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Problems Assignment</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: rgb(224, 200, 169);
+            overflow-y: hidden;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .link {
+            width: 20%;
+            height: 100px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: blueviolet;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+
+        .link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .link a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .instruction {
+            color: rgb(222, 211, 211);
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        h1 {
+            margin-top: 50px;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Assignment Problems</h1>
+    <div class="container">
+        <div class="link" onclick="window.location.href='./Center the div/index.html';">
+            <a href="./Center the div/index.html">Center the div</a>
+            <p class="instruction">Click to check</p>
+        </div>
+
+        <div class="link"
+            onclick="window.location.href='./Create a table layout and add a tooltip for each cell/index.html';">
+            <a href="#">Create a table layout and add a tooltip for each cell</a>
+            <p class="instruction">Click to check</p>
+        </div>
+
+        <div class="link" onclick="window.location.href='./Table with data/index.html';">
+            <a href="#">Exchange Rate Javascript Data Table</a>
+            <p class="instruction">Click to check</p>
+        </div>
+    </div>
+</body>
+
+</html>
