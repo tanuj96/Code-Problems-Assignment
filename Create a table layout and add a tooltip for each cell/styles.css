@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(212, 1, 240);
+}
+
+.table {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+  overflow-x: hidden;
+}
+
+.table-cell {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  padding: 10px;
+  width: calc(33.33% - 100px);
+  margin: 20px 50px;
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background-color: #3333335b;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+.table-cell:hover .tooltip {
+  display: block;
+}
