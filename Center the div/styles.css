@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parentContainer {
+  height: 100vh;
+  background-color: rgb(53, 180, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
